@@ -1,0 +1,66 @@
+{
+  "_loanrequest": [],
+  "loanrequest": [
+    {
+      "_id": 1,
+      "bankAuth": {
+        "userId": "0",
+        "authCode": "0"
+      },
+      "connectedMember": {
+        "provider": "provider",
+        "userId": "userId",
+        "connectionId": "connectionId"
+      },
+      "creditRange": "750_800",
+      "loanAmount": 100000,
+      "loanType": "home",
+      "riki": {
+        "rikiScore": 200,
+        "rikiAsWords": "Nice!",
+        "netIncome": 1040,
+        "borrowingPowerLowerBound": 170000,
+        "borrowingPowerUpperBound": 230000,
+        "lastDataDate": "2024-04-19T19:06:01Z",
+        "firstDataDate": "2024-01-20T00:00:00Z",
+        "dateRange": 91,
+        "nUsableMonths": 2,
+        "softwareVersion": "3.4.4.0"
+      }
+    }
+  ],
+  "_loanrequests": [],
+  "loanrequests": [
+    {
+      "_id": 1,
+      "bankAuth": {
+        "userId": "0",
+        "authCode": "0"
+      },
+      "connectedMember": {
+        "provider": "provider",
+        "userId": "userId",
+        "connectionId": "connectionId"
+      },
+      "creditRange": "750_800",
+      "loanAmount": 100000,
+      "loanType": "home",
+      "riki": {
+        "rikiScore": 200,
+        "rikiAsWords": "Nice!",
+        "netIncome": 1040,
+        "borrowingPowerLowerBound": 170000,
+        "borrowingPowerUpperBound": 230000,
+        "lastDataDate": "2024-04-19T19:06:01Z",
+        "firstDataDate": "2024-01-20T00:00:00Z",
+        "dateRange": 91,
+        "nUsableMonths": 2,
+        "softwareVersion": "3.4.4.0"
+      }
+    }
+  ],
+  "user": {
+    "email": "e@l.com",
+    "verify": true
+  }
+}

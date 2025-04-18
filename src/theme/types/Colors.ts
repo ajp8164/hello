@@ -1,0 +1,85 @@
+import '@rneui/themed';
+
+declare module '@rneui/themed' {
+  export interface Colors {
+    readonly activityIndicator: string;
+    readonly activityIndicatorInv: string;
+    readonly androidNavigationBar: string;
+    readonly assertive: string;
+    readonly button: string;
+    readonly buttonText: string;
+    readonly categories: CategoryColors;
+    readonly chartBarColor1: string;
+    readonly chartBarColor2: string;
+    readonly chatBubbleLeft: string;
+    readonly chatBubbleRight: string;
+    readonly checkboxActive: string;
+    readonly checkboxInactive: string;
+    readonly collapsibleBackground: string;
+    readonly datePicker: string;
+    readonly dropdown: string;
+    readonly dropdownIconNav: string;
+    readonly dropdownSelection: string;
+    readonly error: string;
+    readonly info: string;
+    readonly inputBorderBottom: string;
+    readonly listItem: string;
+    readonly listItemAlt: string;
+    readonly listItemBorder: string;
+    readonly listItemIcon: string;
+    readonly listItemIconNav: string;
+    readonly listHeaderBackground: string;
+    readonly listHeaderTextBackground: string;
+    readonly mxWidgetBackground: string;
+    readonly resultScoreBoxBackground: string;
+    readonly resultScoreLabel: string;
+    readonly resultScoreTag: string;
+    readonly screenHeaderBackground: string;
+    readonly screenHeaderButtonText: string;
+    readonly screenHeaderTitle: string;
+    readonly segmentActive: string;
+    readonly segmentBackground: string;
+    readonly segmentBorder: string;
+    readonly success: string;
+    readonly switchOffThumb: string;
+    readonly switchOffTrack: string;
+    readonly switchOnThumb: string;
+    readonly switchOnTrack: string;
+    readonly tabBarActive: string;
+    readonly tabBarActiveBackground: string;
+    readonly tabBarBorder: string;
+    readonly tabBarInactive: string;
+    readonly tabBarInactiveBackground: string;
+    readonly textDim: string;
+    readonly textLight: string;
+    readonly textInputBorderColor: string;
+    readonly textInv: string;
+    readonly textLinkInv: string;
+    readonly textPlaceholder: string;
+    readonly warning: string;
+  }
+}
+
+export type CategoryColors = {
+  readonly autoTransport: string;
+  readonly billsUtilities: string;
+  readonly businessServices: string;
+  readonly education: string;
+  readonly entertainment: string;
+  readonly feesCharges: string;
+  readonly financial: string;
+  readonly foodDining: string;
+  readonly giftsDonations: string;
+  readonly healthFitness: string;
+  readonly home: string;
+  readonly income: string;
+  readonly investments: string;
+  readonly kids: string;
+  readonly personalCare: string;
+  readonly pets: string;
+  readonly shopping: string;
+  readonly taxes: string;
+  readonly transfer: string;
+  readonly travel: string;
+  readonly uncategorized: string;
+};
