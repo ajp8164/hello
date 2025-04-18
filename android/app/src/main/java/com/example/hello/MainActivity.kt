@@ -1,4 +1,4 @@
-package com.example.helloapp
+package com.example.hello
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

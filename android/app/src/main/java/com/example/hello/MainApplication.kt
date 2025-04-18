@@ -1,4 +1,4 @@
-package com.example.helloapp
+package com.example.hello
 
 import android.app.Application
 import com.facebook.react.PackageList
@@ -9,6 +9,7 @@ import com.facebook.react.ReactPackage
 import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint.load
 import com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost
 import com.facebook.react.defaults.DefaultReactNativeHost
+import com.facebook.react.soloader.OpenSourceMergedSoMapping
 import com.facebook.soloader.SoLoader
 
 class MainApplication : Application(), ReactApplication {
