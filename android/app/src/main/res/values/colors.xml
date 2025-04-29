@@ -1,0 +1,7 @@
+<resources>
+    <color name="bootsplash_background">#121529</color>
+    <color name="colorAccent">#C60C30</color>
+    <color name="nav_bar">#000000</color>
+    <color name="highlight">#0078fe</color>
+    <color name="foreground">#000000</color>
+</resources>

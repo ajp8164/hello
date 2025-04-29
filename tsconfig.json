@@ -1,0 +1,53 @@
+// prettier-ignore
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "app": [
+        "./app/*",
+        "./app/"
+      ],
+      "components": [
+        "./components/*",
+        "./components/"
+      ],
+      "config": [
+        "./config/*",
+        "./config"
+      ],
+      "img": [
+        "./theme/img/*",
+        "./theme/img/"
+      ],
+      "lib": [
+        "./lib/*",
+        "./lib"
+      ],
+      "store": [
+        "./store/*",
+        "./store/"
+      ],
+      "theme": [
+        "./theme/*",
+        "./theme"
+      ],
+      "types": [
+        "./types/*",
+        "./types/"
+      ],
+    },
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.svg",
+    "**/*.png",
+  ]
+}
